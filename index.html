@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Emmanuel Momoh — Research • Teaching • Food Systems</title>
+  <meta name="description" content="Portfolio and CV of Emmanuel Momoh — Geography PhD Candidate, research, teaching, food systems, and community projects." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg: #0b1020;
+      --panel: #11162a;
+      --text: #e9ecf1;
+      --muted: #aeb7c7;
+      --accent: #7dd3fc;
+      --accent2:#c4b5fd;
+      --chip:#19213d;
+      --ring: rgba(125,211,252,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,var(--bg),#0c1224 30%,#0f1530);color:var(--text)}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1050px;margin-inline:auto;padding:28px 20px}
+    header{position:sticky;top:0;z-index:40;background:rgba(11,16,32,.7);backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid rgba(255,255,255,.06)}
+    .nav{display:flex;align-items:center;gap:18px;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand .dot{width:10px;height:10px;border-radius:50%;background:linear-gradient(120deg,var(--accent),var(--accent2))}
+    .brand strong{letter-spacing:.2px}
+    .navlinks{display:flex;gap:16px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.08);background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.01));color:var(--text)}
+    .btn:hover{box-shadow:0 0 0 3px var(--ring);text-decoration:none}
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center;padding-top:38px}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}}
+    .card{border:1px solid rgba(255,255,255,.08);background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));border-radius:20px;padding:22px}
+    .chip{display:inline-flex;gap:8px;align-items:center;padding:6px 10px;border-radius:999px;background:var(--chip);border:1px solid rgba(255,255,255,.06);color:var(--muted);font-size:12px}
+    h1{font-size:38px;line-height:1.15;margin:8px 0 6px}
+    h2{font-size:26px;margin:10px 0 12px}
+    h3{font-size:18px;margin:0 0 6px}
+    p{color:#cfd6e4;line-height:1.65}
+    .grid{display:grid;gap:16px}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    .grid.cols-2{grid-template-columns:repeat(2,1fr)}
+    @media (max-width:900px){.grid.cols-3,.grid.cols-2{grid-template-columns:1fr}}
+    .muted{color:var(--muted)}
+    .kpis{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px}
+    .kpi{padding:10px 14px;border-radius:12px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.03);font-size:13px;color:#dfe6f2}
+    section{scroll-margin-top:84px}
+    .footer{margin-top:50px;padding:20px 0;color:var(--muted);font-size:14px;border-top:1px solid rgba(255,255,255,.08)}
+    .tag{display:inline-block;padding:6px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.04);font-size:12px;color:#dfe6f2}
+    .list-clean{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
+    .proj{display:flex;flex-direction:column;gap:6px}
+    .pillnav{display:flex;gap:10px;flex-wrap:wrap}
+    .inline-icons{display:inline-flex;align-items:center;gap:8px}
+    .avatar{height:110px;width:110px;border-radius:999px;border:2px solid rgba(255,255,255,.1);box-shadow:0 10px 30px rgba(0,0,0,.35);background:linear-gradient(120deg,#1b2350,#111846)}
+    .mono{font-family: ui-monospace,Menlo,Consolas,monospace}
+    .sr{position:absolute;left:-10000px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <span class="dot" aria-hidden="true"></span>
+        <strong>Emmanuel Momoh</strong>
+      </div>
+      <nav class="navlinks" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#cv">CV</a>
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="btn">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="about">
+      <div class="card">
+        <span class="chip">Ph.D. Candidate • Geography • UC Davis</span>
+        <h1>Geographer & educator focused on <span class="inline-icons">food security</span>, environmental justice, and immigrant communities.</h1>
+        <p>I am a Geography Ph.D. candidate at the University of California, Davis. My work combines GIS, spatial analysis, and community engagement to address food insecurity and spatial inequality, especially among underserved and immigrant populations. I also teach courses on community development and international agricultural development.</p>
+        <div class="kpis">
+          <div class="kpi">10+ years research & teaching</div>
+          <div class="kpi">GIS • Python • R</div>
+          <div class="kpi">Food security & sovereignty</div>
+        </div>
+        <div class="pillnav" style="margin-top:14px">
+          <a class="btn" href="#cv">View CV</a>
+          <a class="btn" href="#projects">Projects</a>
+          <a class="btn" href="#teaching">Teaching</a>
+        </div>
+      </div>
+      <div class="card">
+        <div style="display:flex; gap:16px; align-items:center;">
+          <div class="avatar"></div>
+          <div>
+            <h3 style="margin:0 0 2px">Currently</h3>
+            <p class="muted" style="margin:0">Researching urban heat disparities; leading the African Food Basket Project; teaching community development and intercultural research.</p>
+            <div style="margin-top:8px; display:flex; gap:8px; flex-wrap:wrap">
+              <span class="tag">Food security</span>
+              <span class="tag">Environmental justice</span>
+              <span class="tag">Community empowerment</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cv" class="card">
+      <h2>Curriculum Vitae</h2>
+      <p>Download my full CV or explore a summary here.</p>
+      <p class="pillnav">
+        <a class="btn" href="assets/Emmanuel_Momoh_CV.pdf">Download CV (PDF)</a>
+        <a class="btn" href="mailto:eomomoh@ucdavis.edu?subject=CV%20Request">Request updated CV</a>
+      </p>
+      <ul class="list-clean">
+        <li><strong>Ph.D. Geography</strong>, UC Davis (expected 2026)</li>
+        <li><strong>M.Sc. Geography</strong>, Kogi State University, 2021</li>
+        <li><strong>B.Sc. Geography & Planning</strong>, Kogi State University, 2012</li>
+        <li><strong>Research Areas:</strong> Food systems, spatial inequality, environmental justice, immigrant communities</li>
+      </ul>
+    </section>
+
+    <section id="research" class="card">
+      <h2>Research</h2>
+      <div class="grid cols-2">
+        <div class="proj">
+          <h3>Neighborhood Inequality Lab</h3>
+          <p class="muted">Spatial analysis of heat exposure across neighborhoods, integrating canopy cover, mobility, and socioeconomic data to understand climate vulnerability.</p>
+        </div>
+        <div class="proj">
+          <h3>African Food Basket Project</h3>
+          <p class="muted">Community-engaged project providing African vegetables to international students, exploring food security, cultural identity, and community cohesion.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="teaching" class="card">
+      <h2>Teaching</h2>
+      <div class="grid cols-2">
+        <div>
+          <h3>Community Development (UC Davis)</h3>
+          <p class="muted">Designed and independently taught undergraduate course, with syllabus, lectures, and assignments.</p>
+          <div class="pillnav">
+            <a class="btn" href="teaching/community-development/index.html">Course page</a>
+            <a class="btn" href="teaching/community-development/syllabus.pdf">Syllabus (PDF)</a>
+          </div>
+        </div>
+        <div>
+          <h3>International Agricultural Development</h3>
+          <p class="muted">Summer instructor for international students; adapted course content with simplified handouts.</p>
+          <div class="pillnav">
+            <a class="btn" href="teaching/intercultural/index.html">Course page</a>
+            <a class="btn" href="teaching/intercultural/syllabus.pdf">Syllabus (PDF)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Selected Projects</h2>
+      <div class="grid cols-3">
+        <div class="proj">
+          <h3>Urban heat exposure mapping</h3>
+          <p class="muted">Daymet-based heat wave index and neighborhood vulnerability analysis.</p>
+        </div>
+        <div class="proj">
+          <h3>California general plans</h3>
+          <p class="muted">Analysis of 428 general plans to evaluate food and agriculture policies.</p>
+        </div>
+        <div class="proj">
+          <h3>Yolo Basic Income Project</h3>
+          <p class="muted">Qualitative and quantitative evaluation of one of the first guaranteed income programs in the U.S.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Get in touch</h2>
+      <p class="muted">Reach me by email or connect on LinkedIn.</p>
+      <p class="pillnav">
+        <a class="btn" href="mailto:eomomoh@ucdavis.edu">Email</a>
+        <a class="btn" href="https://www.linkedin.com/in/emmanuel-momoh-8b3b2893/">LinkedIn</a>
+      </p>
+    </section>
+
+    <div class="footer">© <span id="year"></span> Emmanuel Momoh. All rights reserved.</div>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
